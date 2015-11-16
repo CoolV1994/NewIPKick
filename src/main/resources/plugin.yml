@@ -1,0 +1,14 @@
+name: ${name}
+main: ${groupId}.${artifactId}.Plugin
+version: ${version}
+description: ${description}
+authors: [CoolV1994]
+commands:
+  nik:
+    description: Admin command for NIK
+    usage: /<command>
+    permission: nik.admin
+    permission-message: §4You do not have permission to use this command.
+permissions:
+    nik.admin:
+        description: Admin permission for NIK
